@@ -18,11 +18,12 @@
 #'
 #' @details
 #'
-#' ## Paths
+#' ## Backslashes
 #'
-#' NetLogo only accepts Unix-style paths (forward slashes) when running
-#' experiments from the command line. Use `normalizePath(path, winslash = "/")`
-#' to ensure paths are correctly formatted regardless of the operating system.
+#' When passing file paths to NetLogo commands, use `normalizePath()` with
+#' `winslash = "/"` to convert backslashes to forward slashes. This is
+#' especially important on Windows, where paths use backslashes as separators,
+#' which must otherwise be escaped.
 #'
 #' For example:
 #'
