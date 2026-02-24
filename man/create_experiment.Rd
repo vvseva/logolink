@@ -104,6 +104,20 @@ please refer to the
 \href{https://docs.netlogo.org/behaviorspace.html#creating-an-experiment-setup}{BehaviorSpace Guide}.
 }
 \details{
+\subsection{Paths}{
+
+NetLogo only accepts Unix-style paths (forward slashes) when running
+experiments from the command line. Use \code{normalizePath(path, winslash = "/")}
+to ensure paths are correctly formatted regardless of the operating system.
+
+For example:
+
+\if{html}{\out{<div class="sourceCode r">}}\preformatted{constants = list(
+  "data-path" = normalizePath("path/to/data", winslash = "/")
+)
+}\if{html}{\out{</div>}}
+}
+
 \subsection{Enclosing}{
 
 Since NetLogo only accepts double quotes for strings inside commands, we

@@ -35,6 +35,7 @@ installations are found in the same directory, the last one
 \seealso{
 Other system functions: 
 \code{\link{find_netlogo_console}()},
-\code{\link{find_netlogo_version}()}
+\code{\link{find_netlogo_version}()},
+\code{\link{test_netlogo_console}()}
 }
 \concept{system functions}

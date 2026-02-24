@@ -18,6 +18,20 @@
 #'
 #' @details
 #'
+#' ## Paths
+#'
+#' NetLogo only accepts Unix-style paths (forward slashes) when running
+#' experiments from the command line. Use `normalizePath(path, winslash = "/")`
+#' to ensure paths are correctly formatted regardless of the operating system.
+#'
+#' For example:
+#'
+#' ```r
+#' constants = list(
+#'   "data-path" = normalizePath("path/to/data", winslash = "/")
+#' )
+#' ```
+#'
 #' ## Enclosing
 #'
 #' Since NetLogo only accepts double quotes for strings inside commands, we
