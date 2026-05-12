@@ -39,9 +39,9 @@ file <- create_experiment(name = "My Experiment")
 file |> inspect_experiment()
 }
 \seealso{
-Other BehaviorSpace functions: 
-\code{\link{create_experiment}()},
-\code{\link{read_experiment}()},
-\code{\link{run_experiment}()}
+Other BehaviorSpace functions:
+\code{\link[=create_experiment]{create_experiment()}},
+\code{\link[=read_experiment]{read_experiment()}},
+\code{\link[=run_experiment]{run_experiment()}}
 }
 \concept{BehaviorSpace functions}

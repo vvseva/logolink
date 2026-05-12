@@ -97,9 +97,9 @@ c(
 read_experiment(file)
 }
 \seealso{
-Other BehaviorSpace functions: 
-\code{\link{create_experiment}()},
-\code{\link{inspect_experiment}()},
-\code{\link{run_experiment}()}
+Other BehaviorSpace functions:
+\code{\link[=create_experiment]{create_experiment()}},
+\code{\link[=inspect_experiment]{inspect_experiment()}},
+\code{\link[=run_experiment]{run_experiment()}}
 }
 \concept{BehaviorSpace functions}

@@ -6,7 +6,7 @@
 \alias{logolink-package}
 \title{logolink: An Interface for Running 'NetLogo' Simulations}
 \description{
-\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+\if{html}{\figure{logo.svg}{options: style='float: right' alt='logo' width='120'}}
 
 An interface for 'NetLogo' \url{https://www.netlogo.org} that enables programmatic setup and execution of simulations. Designed to facilitate integrating 'NetLogo' models into reproducible workflows by creating and running 'BehaviorSpace' experiments and retrieving their results.
 }
@@ -21,6 +21,11 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: Daniel Vartanian \email{danielvartan@proton.me} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [conceptor, copyright holder]
+
+Authors:
+\itemize{
+  \item Daniel Vartanian \email{danielvartan@proton.me} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [conceptor, copyright holder]
+}
 
 }
 \keyword{internal}

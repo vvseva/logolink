@@ -7,7 +7,7 @@
 parse_netlogo_list(x)
 }
 \arguments{
-\item{x}{An \code{\link[checkmate:checkAtomic]{atomic}} vector potentially
+\item{x}{An \code{\link[checkmate:assert_atomic]{atomic}} vector potentially
 containing NetLogo-style lists.}
 }
 \value{
@@ -47,7 +47,7 @@ list (e.g., \code{'["a" "b" [1 2]]'} becomes
 
 NetLogo boolean values (\code{true}/\code{false}) are converted to R
 \code{\link[base:logical]{logical}} values (\code{TRUE}/\code{FALSE}). NetLogo
-\code{NaN} values are parsed as R \code{\link[base:is.finite]{NaN}} .
+\code{NaN} values are parsed as R \code{\link[base:is.nan]{NaN}} .
 }
 \examples{
 # Scalar Examples -----
@@ -93,7 +93,7 @@ c('[true false true]', '[false true false]') |> parse_netlogo_list()
 '[[1 2] [3 4] [5 6]]' |> parse_netlogo_list()
 }
 \seealso{
-Other parsing functions: 
-\code{\link{parse_netlogo_color}()}
+Other parsing functions:
+\code{\link[=parse_netlogo_color]{parse_netlogo_color()}}
 }
 \concept{parsing functions}

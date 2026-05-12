@@ -8,7 +8,7 @@ find_netlogo_console()
 }
 \value{
 A \code{\link[base:character]{character}} string specifying the path to the
-NetLogo executable file. Returns \code{\link[base:NA]{NA}} if the executable
+NetLogo executable file. Returns \code{\link[base:is.na]{NA}} if the executable
 cannot be found at any location.
 }
 \description{
@@ -33,8 +33,8 @@ constructs and expands the path based on the output of
 }
 }
 \seealso{
-Other system functions: 
-\code{\link{find_netlogo_home}()},
-\code{\link{find_netlogo_version}()}
+Other system functions:
+\code{\link[=find_netlogo_home]{find_netlogo_home()}},
+\code{\link[=find_netlogo_version]{find_netlogo_version()}}
 }
 \concept{system functions}

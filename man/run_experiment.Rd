@@ -303,9 +303,9 @@ to learn more.
 }
 }
 \seealso{
-Other BehaviorSpace functions: 
-\code{\link{create_experiment}()},
-\code{\link{inspect_experiment}()},
-\code{\link{read_experiment}()}
+Other BehaviorSpace functions:
+\code{\link[=create_experiment]{create_experiment()}},
+\code{\link[=inspect_experiment]{inspect_experiment()}},
+\code{\link[=read_experiment]{read_experiment()}}
 }
 \concept{BehaviorSpace functions}

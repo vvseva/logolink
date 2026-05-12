@@ -8,7 +8,7 @@ find_netlogo_version()
 }
 \value{
 A \code{\link[base:character]{character}} string specifying the NetLogo
-version (e.g., \code{"7.0.3"}). Returns \code{\link[base:NA]{NA}} if the version
+version (e.g., \code{"7.0.3"}). Returns \code{\link[base:is.na]{NA}} if the version
 cannot be determined.
 }
 \description{
@@ -35,8 +35,8 @@ if the directory was renamed or uses a non-standard naming convention.
 }
 }
 \seealso{
-Other system functions: 
-\code{\link{find_netlogo_console}()},
-\code{\link{find_netlogo_home}()}
+Other system functions:
+\code{\link[=find_netlogo_console]{find_netlogo_console()}},
+\code{\link[=find_netlogo_home]{find_netlogo_home()}}
 }
 \concept{system functions}

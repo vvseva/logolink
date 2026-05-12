@@ -8,7 +8,7 @@ find_netlogo_home()
 }
 \value{
 A \code{\link[base:character]{character}} string specifying the path to the
-NetLogo installation directory. Returns \code{\link[base:NA]{NA}} if no
+NetLogo installation directory. Returns \code{\link[base:is.na]{NA}} if no
 installation can be found.
 }
 \description{
@@ -33,9 +33,8 @@ installations are found in the same directory, the last one
 }
 }
 \seealso{
-Other system functions: 
-\code{\link{find_netlogo_console}()},
-\code{\link{find_netlogo_version}()},
-\code{\link{test_netlogo_console}()}
+Other system functions:
+\code{\link[=find_netlogo_console]{find_netlogo_console()}},
+\code{\link[=find_netlogo_version]{find_netlogo_version()}}
 }
 \concept{system functions}

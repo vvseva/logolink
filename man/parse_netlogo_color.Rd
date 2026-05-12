@@ -84,7 +84,7 @@ parse_netlogo_color(17.5, bias = -0.5)
 parse_netlogo_color(17.5, bias = 0.5)
 }
 \seealso{
-Other parsing functions: 
-\code{\link{parse_netlogo_list}()}
+Other parsing functions:
+\code{\link[=parse_netlogo_list]{parse_netlogo_list()}}
 }
 \concept{parsing functions}

@@ -402,9 +402,9 @@ setup_file
 setup_file |> inspect_experiment()
 }
 \seealso{
-Other BehaviorSpace functions: 
-\code{\link{inspect_experiment}()},
-\code{\link{read_experiment}()},
-\code{\link{run_experiment}()}
+Other BehaviorSpace functions:
+\code{\link[=inspect_experiment]{inspect_experiment()}},
+\code{\link[=read_experiment]{read_experiment()}},
+\code{\link[=run_experiment]{run_experiment()}}
 }
 \concept{BehaviorSpace functions}
